@@ -1,0 +1,6 @@
+@import 'vars';
+@mixin button($radius,$pad-1,$pad-2,$bg-color) {
+    padding: $pad-1 $pad-2;
+    border-radius: $radius;
+    background: $bg-color;
+}

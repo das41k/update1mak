@@ -1,0 +1,12 @@
+@import 'vars';
+body {
+    background-color: #181E34;
+    font-family: $font-family-global;
+    color: $text-accent;
+}
+.container {
+    max-width: 930px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}

@@ -1,0 +1,37 @@
+.footer {
+    margin-top: 120px;
+    border-top: 1px solid #323952;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.footer__info {}
+
+.footer__img {
+    margin-bottom: 15px;
+}
+
+.footer_text {
+    max-width: 267px;
+}
+
+.footer__title {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__item {}

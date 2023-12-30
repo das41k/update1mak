@@ -1,0 +1,39 @@
+.info {
+    background: url("../img/hero-bg.jpg") no-repeat;
+}
+.info__title {
+    padding-top: 120px;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.info__block {
+    display: flex;
+    justify-content: space-between;
+}
+.info__pad {
+    max-width: 436px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 120px;
+}
+.info__text--first span {
+    color: #01A2CB;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.info__buttons {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+@import 'mixinAndShable';
+.info__button {
+    @include button(100px,18px,30px,linear-gradient(180deg, #00A4CC 0%, #2766AE 100%));
+    min-width: 320px;
+    text-align: center;
+    font-weight: 500;
+}
